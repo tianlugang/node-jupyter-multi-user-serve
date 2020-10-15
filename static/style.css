@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 10px;
+    box-shadow: 1px 2px 3px #eeeeee;
+}
+.container .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container .row .col {
+    flex-shrink: 0;
+    flex-basis: auto;
+    padding: 5px 15px;
+}
+.input {
+    padding: 6px 15px;
+    border: 1px solid #dddddd;
+    outline: none;
+    min-width: 300px;
+}
+.button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #f90;
+    padding: 6px 24px;
+    outline: none;
+    border: none;
+    margin-right: 15px;
+    color: #fff;
+}
+.danger.button {
+    background-color: #ff0000;
+}
+
+.table-wrapper {
+    position: relative;
+    padding: 0 15px;
+    margin: 15px 0;
+}
+.table-wrapper .table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-wrapper .table th {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+.table-wrapper .table td {
+    padding: 6px 8px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+.table-wrapper .table tbody tr:hover {
+    background-color: #fefefe;
+    transition: all 300ms ease;
+}

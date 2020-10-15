@@ -1,0 +1,1 @@
+module.exports.rmInvalidCharacter = str => str.replace(/[ ]|[\r\n]/g,"")

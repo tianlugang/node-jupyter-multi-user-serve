@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <input placeholder="请输入标识服务的uuid，例如: /1/2148" class="input" id="J_uuid" />
+            </div>
+            <div class="col">
+                <button class="button" id="J_setup">开启</button>
+            </div>
+        </div>
+
+        <div class="table-wrapper">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>uuid</th>
+                        <th>端口</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="J_record"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script type="text/ejs-template" id="J_record_tpl">
+        <? for(var i = 0; i < record.length; i++){ ?>
+          <tr>
+              <td><?= record[i].uuid ?></td>
+              <td><?= record[i].port ?></td>
+              <td>
+                  <span class="button danger" onClick="JServe_stop('<?-record[i].uuid?>')">停止</span>
+                  <span class="button" onClick="JServe_restart('<?-record[i].uuid?>')">重启</span>
+              </td>
+          </tr>
+        <? } ?>
+    </script>
+
+    <script src="/static/ejs.min.js"></script>
+    <script src="/static/utils.js"></script>
+    <script src="/static/setup.js"></script>
+</body>
+</html>

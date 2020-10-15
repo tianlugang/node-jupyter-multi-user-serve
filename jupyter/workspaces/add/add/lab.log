@@ -1,0 +1,33 @@
+[I 17:19:22.820 LabApp] JupyterLab extension loaded from /home/visitor/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 17:19:22.821 LabApp] JupyterLab application directory is /home/visitor/anaconda3/share/jupyter/lab
+[I 17:19:22.824 LabApp] Will shut down after 10 seconds with no kernels or terminals.
+[I 17:19:22.825 LabApp] 启动notebooks 在本地路径: /home/visitor/jupyter/jupyter/workspaces/add/add/files
+[I 17:19:22.826 LabApp] 本程序运行在: http://localhost:3001/jupyter/3001/?token=e50318505a41eb4b236389f348d675ce5fa6cdf27620cff6
+[I 17:19:22.826 LabApp]  or http://127.0.0.1:3001/jupyter/3001/?token=e50318505a41eb4b236389f348d675ce5fa6cdf27620cff6
+[I 17:19:22.826 LabApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 17:19:22.870 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/visitor/.local/share/jupyter/runtime/nbserver-13815-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:3001/jupyter/3001/?token=e50318505a41eb4b236389f348d675ce5fa6cdf27620cff6
+     or http://127.0.0.1:3001/jupyter/3001/?token=e50318505a41eb4b236389f348d675ce5fa6cdf27620cff6
+[I 17:20:22.884 LabApp] No kernels or terminals for 60 seconds; shutting down.
+[I 17:20:22.886 LabApp] 关闭 0 服务
+[I 17:20:27.581 LabApp] JupyterLab extension loaded from /home/visitor/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 17:20:27.581 LabApp] JupyterLab application directory is /home/visitor/anaconda3/share/jupyter/lab
+[I 17:20:27.586 LabApp] Will shut down after 10 seconds with no kernels or terminals.
+[I 17:20:27.587 LabApp] 启动notebooks 在本地路径: /home/visitor/jupyter/jupyter/workspaces/add/add/files
+[I 17:20:27.588 LabApp] 本程序运行在: http://localhost:3001/jupyter/3001/?token=35954314dcf8f236e6fe1e19ce7920beb7b7de65ba3c6965
+[I 17:20:27.588 LabApp]  or http://127.0.0.1:3001/jupyter/3001/?token=35954314dcf8f236e6fe1e19ce7920beb7b7de65ba3c6965
+[I 17:20:27.588 LabApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 17:20:27.635 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/visitor/.local/share/jupyter/runtime/nbserver-14118-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:3001/jupyter/3001/?token=35954314dcf8f236e6fe1e19ce7920beb7b7de65ba3c6965
+     or http://127.0.0.1:3001/jupyter/3001/?token=35954314dcf8f236e6fe1e19ce7920beb7b7de65ba3c6965
+[I 17:20:31.595 LabApp] Build is up to date
+[I 17:21:27.641 LabApp] No kernels or terminals for 55 seconds; shutting down.
+[I 17:21:27.643 LabApp] 关闭 0 服务
